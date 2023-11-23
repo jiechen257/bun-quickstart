@@ -1,0 +1,21 @@
+{
+	"name": "bun-quickstart",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"start": "bun run index.ts",
+		"serve": "bun run ./server/server.ts",
+		"build": "bun run ./build/build.local.ts",
+		"test": "bun test test"
+	},
+	"devDependencies": {
+		"@types/figlet": "^1.5.8",
+		"bun-types": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"figlet": "^1.7.0"
+	}
+}
